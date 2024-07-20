@@ -11,8 +11,8 @@ const { exec } = require('child_process');
 const config = {
     host: "10.0.0.2", // Set your Pwnagotchi IP
     username: "pi", // Set your SSH username
-    password: "raspberry", // Set your SSH password
-    handshakeDir: "/home/pi/handshakes/", // Set your handshake directory on the Pwnagotchi
+    password: "raspberry", // Set your SSH password, remember to change the default if you haven't already!
+    handshakeDir: "/root/handshakes", // Set your handshake directory on the Pwnagotchi
     port: 22,
     localDir: "./pcap/",
     database: path.join(__dirname, "./db.json"),
@@ -34,8 +34,7 @@ logo = () => {
                                                                                         
        
                     |===============================================|
-                    | Github: https://github.com/CyrisXD/Pwnagetty  |
-                    | Twitter: @sudo_overflow                       |
+                    | Github: https://github.com/ciananlee/Pwnagetty|
                     |===============================================|
 
             `)
