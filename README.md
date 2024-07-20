@@ -1,8 +1,9 @@
-## This project is a fork from CyrisXD's original Pwnagetty project and builds upon their hard work. I am simply updating the project to work with the jayofelony pwnagotchi build. Happy pwning!
+### This project is a fork from CyrisXD's original Pwnagetty project and builds upon their hard work. 
+### I am simply updating the project to work with the jayofelony pwnagotchi build. 
+### Happy pwning!
+
 
 # Pwnagetty
-
-![pwnagetty](https://i.imgur.com/Cs5yqMI.jpg)
 
 
 Pwnagetty is a cli application written in NodeJS, to streamline the process of downloading handshakes from your Pwnagotchi, verify each PCAP file and convert them to the appropriate format (EAPOL or PMKID) ready for Hashcat cracking. All while keeping a log of converted files and BSSID's to eliminate duplicates in the future.
@@ -16,19 +17,27 @@ Pwnagetty relies on the below. Make sure you have these installed *before* insta
 
 [NODEJS](https://nodejs.org/en/) - (Built with NodeJS)
 
+**Mac** users can install with:
+```
+brew install nodejs
+```
+
+
 [HCXPCAPNGTOOL](https://github.com/ZerBea/hcxtools) - (To verify and convert PCAP's)
 
-    Mac users can install with:
-        ```
-        brew install hcxtools
-        ```
+**Mac** users can install with:
+```
+brew install hcxtools
+```
+
 
 [AIRCRACK-NG](https://www.aircrack-ng.org/) - (To extract BSSID's from PCAP's)
 
-    Mac users can install with:
-        ```
-        brew install aircrack-ng
-        ```
+**Mac** users can install with:
+```
+brew install aircrack-ng
+```
+
 
 ## Installation
 
@@ -50,7 +59,7 @@ You'll likely only need to change the username, password and handshakeDir.
 const config = {
     host: "10.0.0.2", // Set your Pwnagotchi IP
     username: "pi", // Set your SSH username
-    password: "raspberry", // Set your SSH password
+    password: "raspberry", // Set your SSH password, remember to change the default if you haven't already!
     handshakeDir: "/root/handshakes", // Set your handshake directory on the Pwnagotchi
     port: 22,
     localDir: "./pcap/",
