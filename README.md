@@ -18,14 +18,14 @@ Pwnagetty relies on the below. Make sure you have these installed *before* insta
 
 [HCXPCAPNGTOOL](https://github.com/ZerBea/hcxtools) - (To verify and convert PCAP's)
 
-    // Mac users can install with:
+    Mac users can install with:
         ```
         brew install hcxtools
         ```
 
 [AIRCRACK-NG](https://www.aircrack-ng.org/) - (To extract BSSID's from PCAP's)
 
-    // Mac users can install with:
+    Mac users can install with:
         ```
         brew install aircrack-ng
         ```
