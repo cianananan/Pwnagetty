@@ -1,6 +1,6 @@
 ### This project is a fork from CyrisXD's original Pwnagetty project and builds upon their hard work. 
-### I am simply updating the project to work with the jayofelony pwnagotchi build with MacOS as the host. I'll aim to test with Linux in the near future and update as needed.
-### Happy pwning!
+I'm simply updating the project to work with the jayofelony pwnagotchi build with MacOS as the host. I'll aim to test with Linux in the near future and update as needed.
+##### Happy pwning!
 
 
 # Pwnagetty
