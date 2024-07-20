@@ -8,6 +8,7 @@
   },
   "keywords": [],
   "author": "CyrisXD (https://github.com/cyrisxd)",
+  "fork": "ciananlee (https://github.com/ciananlee)",
   "license": "MIT",
   "bin": {
     "pwnagetty": "./bin/index.js"
