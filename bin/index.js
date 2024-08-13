@@ -34,7 +34,7 @@ logo = () => {
                                                                                         
        
                     |===============================================|
-                    | Github: https://github.com/ciananlee/Pwnagetty|
+                    |Github: https://github.com/cianananan/Pwnagetty|
                     |===============================================|
 
             `)
