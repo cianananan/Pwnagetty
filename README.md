@@ -44,7 +44,7 @@ brew install aircrack-ng
 Choose a directory you'd like to save this in then run the below.
 
 ```
-git clone https://github.com/ciananlee/Pwnagetty.git
+git clone https://github.com/cianananan/Pwnagetty.git
 cd Pwnagetty
 npm install
 npm install -g
